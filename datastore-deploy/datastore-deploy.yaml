@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mywebapp
-          image: gansh12/datastore:v1.0
+          image: gansh12/datastore:v9.0
   replicas: 3
   selector:
     matchLabels:
